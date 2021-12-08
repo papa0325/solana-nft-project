@@ -65,28 +65,3 @@ After your Devnnet candy machine has been created feel free to run:
 For deploying your collection on the mainnet just run `yarn deploy-mainnet` and answer the questions as prompted. It will store your wallet key in our path: `~/.config/solana/candyfactory-mainnet.json` (if you want to edit that just tweak setup-solana-mainnet.sh). It is the same process as used for the development environment but asking for importing a Wallet PK (that should have enough SOLs and will be the one that will receive the mint value). 
 
 After the deployment is over, it will generate all envs that your frontend dApp needs in a file called `.env.local.production` in the root of the project. These env values should then be added as environment variables where you build your dAapp (if Vercel, you need to add to their `ENVIROMENT VARIABLES` config section).
-
-## Donate
-
-The best way to support me is by following me on [https://twitter.com/kevinfaveri_](https://twitter.com/kevinfaveri_) and [https://twitter.com/aiphotos_](https://twitter.com/aiphotos_) (which is the art project that inspired this repository) :)
-
-## Others Tools
-
-If you want multisig wallets, you may study https://github.com/GokiProtocol/goki or the https://github.com/project-serum/multisig.
-
-Also, a ton of other useful tools/repos:
-https://github.com/HashLips/hashlips_art_engine
-
-https://github.com/exiled-apes/candy-machine-mint
-
-https://github.com/InnerMindDAO/MintUI (GUI for the Candy Machine)
-
-https://github.com/theskeletoncrew/treat-toolbox (WebApp for creating collections + Candy Machine without the candy machine cli overhead)
-
-https://github.com/maxwellfortney/next-candy-machine (More simplified version of this repo)
-
-https://github.com/samuelvanderwaal/metaboss (CLI with useful tools for Metaplex)
-
-## Hire
-
-If you want to hire me to develop your candy machine application on the Solana or Ethereum blockchain feel free to reach me through the email kevin@faveri.dev
